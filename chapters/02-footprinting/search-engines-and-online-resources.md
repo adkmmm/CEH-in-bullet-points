@@ -93,14 +93,22 @@
 
 ### IoT search engines
 
-- Shodan, Censys, and Thingful
 - Can allow finding e.g. manufacturer details, geographical location, IP address, hostname, open ports
+- E.g. [Shodan](#shodan), Censys, and Thingful
+- See [IoT footprinting | IoT security](./../18-iot-and-ot/iot-security.md#iot-footrprinting)
 
 #### Shodan
 
 - Online [search engine](https://shodan.io)
 - Finds specific types of IoT (webcams, routers, servers, etc.) connected to the internet using a variety of filters.
 - 📝 You can e.g. search for open ports `port: 1433`
+
+#### Censys
+
+- Online [censys](https://censys.io/)
+- 📝 Provides internet asset discovery i.e. scanning for unknown internet resources.
+- Available on [search.censys.io](https://search.censys.io/)
+
 
 ### Netcraft
 
